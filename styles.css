@@ -1,0 +1,42 @@
+.container {
+  display: block;
+  width: 600px;
+  position: relative;
+  margin: auto;
+  margin-top: 150px;
+  background-color: lightblue;
+  padding: 10px 0 10px 0;
+}
+
+.content {
+  color: lightcoral;
+  text-align:center;
+}
+
+.input {
+  border: none;
+  padding: 3px;
+  margin: 5px;
+}
+
+.submit {
+  border: 2px solid lightcoral;
+  background-color: lightblue;
+  color: lightcoral;
+  padding: 6px 24px;
+  margin: 20px auto 10px;
+}
+
+.submit:hover {
+  background-color: lightcoral;
+  color: white;
+}
+
+/* styles for the $msgClass variable fetched by PHP */
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
